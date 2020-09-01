@@ -12,14 +12,21 @@ git clone https://github.com/<your-github-username>/weekly-challenges
 
 **3.** Navigate to the project directory.
 ```terminal
-cd weekly-challenges
+cd weekly-challenges-master
 ```
 
 **4.** Navigate to the relevant week.
 ```terminal
 cd week-3
 ```
-
+**4.1** Check if there is an existing repository by:
+```terminal
+ls -la
+```
+**4.2** (If no repository is present) Initialize a repository
+```terminal
+ git init
+ ```
 **5.** Create a new branch.
 ```terminal
 git checkout -b <your_branch_name>
